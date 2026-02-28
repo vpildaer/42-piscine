@@ -126,18 +126,3 @@ char	**ft_split(char *str, char *charset)
 	res = res_fill(str, charset, res, strlen);
 	return (res);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char s[] = "This is a test, a test for my split function.";
-	char **split_strings = ft_split(s, " ,.");
-	int i = 0;
-	while (split_strings[i] != NULL)
-	{
-		printf("%s\n", split_strings[i]);	
-		i++;
-	}
-	return (0);
-}*/
